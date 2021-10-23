@@ -10,7 +10,7 @@ public class Main {
         for(int i=0; i<7; i++)
         {
             st.push_back(i);
-            System.out.println("Container size:" + st.getSize()+ " №" +st.getCounter()+": "+ st.getElem());
+            System.out.println("Container size:" + st.getSize()+ "  Elem:" + st.getElem());
         }
 
         System.out.println("Remove 3 items: ");
@@ -18,7 +18,6 @@ public class Main {
         {
             st.pop_back();
         }
-        System.out.println("Current item: №" + st.getCounter()+ ", Container size:" + st.getSize());
-        System.out.println(st.get_i_Elem(3));
+        System.out.println("Current item: №" + st.getCounter()+ "  Elem:" +st.get_i_Elem(st.getCounter())+", Container size:" + st.getSize());
     }
 }
